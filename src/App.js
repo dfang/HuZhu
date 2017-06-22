@@ -25,7 +25,6 @@ import Profile from './components/profile/profile';
 import Login from './components/auth/login';
 
 
-
 const Main = () => (
   <Switch>
       <Route exact path='/' component={PlanWrapper}/>
