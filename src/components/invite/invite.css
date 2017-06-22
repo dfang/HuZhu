@@ -1,0 +1,229 @@
+.activity-invite {
+  overflow: hidden;
+  margin-top: -1.6rem;
+  margin-bottom: 1.6rem
+}
+.activity-top {
+  position: fixed;
+  top: 0;
+  height: 1.6rem;
+  background: hsla(0, 0%, 97%, .7);
+  z-index: 2;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex
+}
+[data-dpr="1"] .activity-top {
+  border-bottom: .5px solid #ccc
+}
+[data-dpr="2"] .activity-top {
+  border-bottom: 1px solid #ccc
+}
+[data-dpr="3"] .activity-top {
+  border-bottom: 1.5px solid #ccc
+}
+.activity-avatar {
+  display: inline-block;
+  width: 85%;
+  margin: .4rem .533333rem
+}
+.activity-avatar_ico {
+  width: .8rem;
+  height: .8rem;
+  background-color: #ccc;
+  border-radius: .8rem;
+  float: left;
+  margin-right: .266667rem
+}
+.activity-avatar_title {
+  font-size: .4rem;
+  color: #444
+}
+.activity-avatar_title_reward {
+  font-size: .4rem;
+  color: #f70a0a
+}
+.activity-avatar_derc {
+  font-size: .32rem;
+  color: #999
+}
+.activity-recharge_btn {
+  line-height: .8rem;
+  height: .8rem;
+  width: 2.4rem;
+  color: #4a90e2;
+  font-size: .32rem;
+  background-color: transparent;
+  border-radius: .4rem;
+  float: right;
+  text-align: center;
+  margin: .4rem .266667rem .4rem 0;
+  outline: none;
+  cursor: pointer
+}
+[data-dpr="1"] .activity-recharge_btn {
+  border: .5px solid #4a90e2
+}
+[data-dpr="2"] .activity-recharge_btn {
+  border: 1px solid #4a90e2
+}
+[data-dpr="3"] .activity-recharge_btn {
+  border: 1.5px solid #4a90e2
+}
+.activity-banner {
+  width: 100%;
+  height: 6.96rem;
+  background: url(//s1.shuidihuzhu.com/sd/static/img/banner.333143a.png);
+  background-size: 100% 100%;
+  margin-top: 1.6rem
+}
+.activity-avatar_scroll {
+  height: 2.666667rem;
+  padding: .533333rem;
+  overflow: scroll;
+  -webkit-overflow-scrolling: touch
+}
+.activity-avatar_scroll ul {
+  width: 20rem
+}
+.activity-avatar_scroll li {
+  float: left;
+  margin-right: .666667rem
+}
+.activity-last_li {
+  padding-right: .666667rem
+}
+.activity-avatar_scroll_box {
+  text-align: center
+}
+.activity-avatar_img {
+  background: #ccc
+}
+.activity-avatar_img, .activity-avatar_img img {
+  width: 1.466667rem;
+  height: 1.466667rem;
+  border-radius: 1.466667rem
+}
+.activity-avatar_name {
+  margin-top: .266667rem
+}
+.activity-avatar_name__span {
+  display: block;
+  width: 1.466667rem;
+  height: .8rem;
+  overflow: hidden
+}
+.activity-footer {
+  width: 100%;
+  margin-top: -.4rem;
+  padding: .4rem 0;
+  text-align: center;
+  background: #fff;
+  position: absolute
+}
+.activity-invite-alert-area {
+  font-family: Ping Fang
+}
+.activity-invite-alert-area h1 {
+  margin-top: 1.066667rem;
+  font-size: .72rem;
+  color: #333;
+  text-align: center
+}
+.activity-invite-alert-area p {
+  margin-top: .32rem;
+  font-size: .4rem;
+  color: #ff8400
+}
+.activity-invite-alert-area img {
+  margin: .32rem 0 .8rem;
+  text-align: center;
+  width: 4.72rem;
+  height: 2.546667rem
+}
+.activity-btn {
+  width: 8rem;
+  height: 1.2rem;
+  border-radius: .16rem
+}
+.activity-share {
+  background-color: #ffc850;
+  font-size: .48rem;
+  color: #fff;
+  border: 0;
+  margin-top: .266667rem;
+  margin-right:  .366667rem;
+}
+.activity-invite-wx-icon {
+  display: inline-block;
+  margin-right: .266667rem;
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC4AAAAmCAYAAAC76qlaAAAABGdBTUEAALGPC/xhBQAAA+tJREFUWAnFmVuITVEcxudgchmXCWMGMUSNwchdpObB5YFSSnlRcnkV5UEUoYjUEA+kPMkgySU1ksltZsSQS9Sgcb/n2rjPMH7fmD3tWWfvfdY+c/bxr9+stdf61n99++y9z17rTCzDMhobG7OQFsMMGAN9IBe6wXt4B0/hElyA6lgs1kD5fwLDRVAKPyFMvES8FnSC6QsmHAgn4A+0Jb4zeA1kRu6eSebBB0hl3CJZYWTmSb4+lW6NXO84npRy8yRdaUwUxeEXkk5MmXmSzY3CpU/Ox7T3bLN5knSHFz6TqLkKDoE+LZv4jOggXA0QH0mF8e0BE+xyJkAzCn4FaNX1DQpcY/YF6Mc6utAlSTtDXUDyye6k6K4HaNV10dBPC9Afc2vD1NshngNdAwa1fCoYyEY3JECrrgJ07nzjAvSzDW2A1OhioO7doNCl3wBLINGn7eS5TGUxbIIfTqNPOcuwZHUYI1k1yvFW6raJfjD8PFyB182orZY1zQPKUCHjSqLFUlRxmcRb4RwUwXQYAVrD5IDMv4VXUAlnOZEnlMGBcd0KUcQ9ks6EvrAFPoJtXEM4H9r7uqezxjZbCJ2em2xYB4nu8aC08ua9RKCjLGhkEn3bGNMfKpMY6zWknsY1cZ88jSVe6iTb9jMuD6K4iptamWeSMUmaNIfJbDfQ8tWMMzSsgONmh3F8h2Mt9HZDg9Gnw2Wm+WoPUdgmPYgbPQZpnRNzJqR+ykOjJi159YJrCup6Psz4SsNgCfTmVGz/VyT9t5yR92GVR4Yqvt4aXe0Vrrq7ehfdJ1eDl64L/SUuTUYGZ3LUPL0Qx4vQan/pFbr8HTUZZXuo8BLRpvXSAMcU9Z0+Oj2sue5L2ItBt6GfM9iyrEenF1gVDPMZU0P7WZgKo300ataL6CgMBf2a4BfLWoxLwZnoZ4cykBHb0Ot6JOgN2CqfbYIkdHude7xpLPfYDSpToDZEsudodYnTZVrW8lsZVwvmH1IsUN0ydHmj/+mhtZkOccab+xOtud1p8jh45m5IQ/2Rn/GWzUOziTeUh0ErODMGcZW+0vjS7IjwuLaDT3LnydcDtwM2Y65OWh7gQgrtavQAa2nq7Ha0+V0OUYfeCfrmiQ/MvYVSyI/v9W5BOxbSEXrZxQczZ8KE+J7ELYzTIivK+E3y4sROQipI2ht0taKKLSEt2ctxrFsmzG7H9iRPI4z2a5cJJsFrW0cWugNoojXtXBsmyoGTFqYSSbQn9t97OhOmumRSrdPLE7kz+s1/JgxPtS/rfBgrBO2CtJF4BNoUKPRN8QZuwh6YAz1gKTwDxULridIhxFAW+N4G9HUCnexq089fUVKGoAnaMiYAAAAASUVORK5CYII=) 0 0 no-repeat;
+  background-size: 100%;
+  width: .613333rem;
+  height: .506667rem;
+  vertical-align: -.093333rem
+}
+.activity-share_weibo {
+  background-color: transparent;
+  font-size: .48rem;
+  color: #ffc850;
+  margin-top: .266667rem;
+  border: 1px solid #ffc850;
+}
+.activity-share_link {
+  margin: .533333rem;
+  padding-bottom: 1.6rem
+}
+.activity-share_link a {
+  color: #ffc850;
+  font-size: .32rem
+}
+.activity-rule_model_list {
+  position: fixed;
+  top: 0;
+  height: 100%;
+  background: #fff;
+  padding: .666667rem;
+  font-size: .4rem;
+  z-index: 99
+}
+.activity-rule_model_list h4 {
+  font-size: .48rem;
+  font-weight: 500
+}
+.activity-rule_model_list p {
+  line-height: .666667rem;
+  margin: .266667rem 0
+}
+.activity-hide_rule {
+  text-align: center
+}
+.activity-hide_rule_btn {
+  background-color: #ffc850;
+  font-size: .48rem;
+  color: #fff;
+  border: 0;
+  margin-top: .533333rem
+}
+.activity-tip {
+  position: absolute;
+  margin: -.666667rem auto;
+  text-align: center;
+  left: 0;
+  right: 0
+}
+.activity-tip-fade-enter-active, .activity-tip-fade-leave-active {
+  transition: all .3s ease
+}
+.activity-tip-fade-enter, .activity-tip-fade-leave-active {
+  -webkit-transform: translateY(50%);
+  transform: translateY(50%);
+  opacity: 0
+}
+.picker-title .cancel-button {
+  margin-left: 0!important
+}
+.picker-title .title {
+  margin-left: -.666667rem!important
+}

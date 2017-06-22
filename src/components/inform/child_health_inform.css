@@ -1,0 +1,136 @@
+.root {
+ background: #f6f6f6;
+ line-height: 1.6
+}
+
+.plan-work, .root {
+ padding-bottom: 1.4064rem
+}
+
+.inform-hgroup {
+ padding: 0.62507rem 0.4688rem;
+ background: #fff;
+ background: url(//s1.shuidihuzhu.com/sd/static/img/inform-title-banner-bg.01a1114.png) 0 0 no-repeat;
+ background-size: 100%
+}
+
+[data-dpr="1"] .inform-hgroup {
+ border-bottom: .5px solid #d7d7d7
+}
+
+[data-dpr="2"] .inform-hgroup {
+ border-bottom: 1px solid #d7d7d7
+}
+
+[data-dpr="3"] .inform-hgroup {
+ border-bottom: 1.5px solid #d7d7d7
+}
+
+.inform-hgroup h1 {
+ font-size: 0.62507rem;
+ color: #333
+}
+
+.inform-hgroup h2 {
+ font-size: 0.37504rem;
+ color: #666
+}
+
+.plan-health, .plan-work {
+ background: #fff;
+ margin-bottom: 0.4688rem
+}
+
+.inform-tips {
+ background: #fff;
+ margin-top: 0.31253rem;
+ font-size: 0.43755rem;
+ padding: 0.31253rem 0.4688rem;
+ height: 100%;
+ border-bottom: .013333rem solid #d7d7d7
+}
+
+.inform-list {
+ padding: 0 0.4688rem;
+ font-size: 0.43755rem;
+ height: 100%
+}
+
+.inform-list h3 {
+ font-size: 0.43755rem;
+ color: #222;
+ font-weight: 400
+}
+
+.inform-list .inform-item {
+ overflow: hidden;
+ zoom: 0;
+ padding: 0.31253rem 0;
+ border-bottom: 0.03125rem dashed #d7d7d7;
+ color: #666
+}
+
+.inform-list .inform-item:last-child {
+ border-bottom: 0
+}
+
+.inform-list .item-content {
+ float: left;
+ width: 90%;
+ height: 100%
+}
+
+.inform-list .item-content div {
+ padding-top: 0.15627rem;
+ color: #666
+}
+
+.inform-list .item-index {
+ float: left;
+ color: #222;
+ height: 100%
+}
+
+.inform-buttons {
+ background: #fff;
+ position: fixed;
+ font-size: 0;
+ width: 100%;
+ bottom: 0;
+ overflow: hidden
+}
+
+.inform-buttons a {
+ float: left;
+ color: #333;
+ height: 1.51579rem;
+ line-height: 1.51579rem;
+ font-size: 0.50005rem;
+ border-top: .013333rem solid #d7d7d7;
+ text-align: center;
+ width: 50%
+}
+
+.inform-buttons .buttons-last {
+ background: #ffc850;
+ border-color-top: #ffc850;
+ color: #fff
+}
+
+.inform-buttons .buttons-last:active {
+ background: #ffc850
+}
+
+.inform-layer {
+ padding: 0.31253rem 0.15627rem 0;
+ font-size: 0.43755rem;
+ color: #333
+}
+
+.inform-layer div {
+ padding-bottom: 0.31253rem
+}
+
+.inform-layer a {
+ color: #0092ff
+}

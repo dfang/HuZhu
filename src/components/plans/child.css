@@ -1,0 +1,49 @@
+.root {
+ background: #f6f6f6;
+ padding-bottom: 1.333333rem;
+ line-height: 1.6
+}
+
+/*h1 {
+ margin: 0 0 0.62507rem 0.4688rem;
+ font-size: 0.50005rem;
+ color: #333;
+ border-bottom: .013333rem solid #bbb;
+ font-weight: 700
+}*/
+
+.child-banner, .old-banner, .young-banner {
+ position: relative;
+ height: 4.06293rem;
+ display: block;
+ width: 100%;
+ margin: 0 auto;
+ background: #fff
+}
+
+.banner-info {
+ position: absolute;
+ top: 0.78133rem;
+ left: 0.68757rem
+}
+
+.banner-info h2 {
+ font-size: 0.56256rem;
+ color: #0092ff
+}
+
+.banner-info p {
+ font-size: 0.43755rem;
+ color: #0092ff
+}
+
+.banner-img {
+ max-width: 100%;
+ height: 4.06293rem;
+ float: right
+}
+
+.accident-banner {
+ height: 4.06293rem;
+ background: #fff
+}

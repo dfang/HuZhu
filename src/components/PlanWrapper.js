@@ -1,16 +1,12 @@
 import React, { Component } from 'react';
 
-import Banner from './Banner';
-import PlanListWrapper from './PlanListWrapper';
-import Disclaimer from './Disclaimer';
+import Banner from './plans/Banner';
+import PlanListWrapper from './plans/PlanListWrapper';
+import Disclaimer from './plans/Disclaimer';
 
+import './plans/plan.css';
 
 class PlanWrapper extends Component {
-
-  constructor(){
-    super();
-  }
-
   render() {
     return (
         <div className="plan-wrap">

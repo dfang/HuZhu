@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom'
 
 class PlanListWrapper extends Component {
 
@@ -14,7 +15,7 @@ class PlanListWrapper extends Component {
                 <span className="joined-people"><em> 254.6万</em>人已加入</span>
             </div>
             <section className="plan-list">
-                <a className="plan-list-content">
+                <Link to="/plan/child" className="plan-list-content">
                     <div className="plan-content-top">
                         <span className="plan-content-img">
                           <img src="child.png" className="lazy"/>
@@ -27,7 +28,7 @@ class PlanListWrapper extends Component {
                         </span>
                         <button><span> 加入</span></button>
                     </div>
-                </a>
+                </Link>
             </section>
         </div>
       );

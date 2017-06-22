@@ -11,7 +11,7 @@ class Root extends Component {
   render() {
     return (
       <div className="root">
-          <PlanWrapper />
+        <PlanWrapper />
       </div>
       );
     }

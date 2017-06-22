@@ -1,0 +1,84 @@
+.login-wrap{
+  padding:.666667rem;
+  width:100%;
+  box-sizing:border-box;
+}
+.phone-verify[data-v-73ae443c] {
+    margin-top: .533333rem
+}
+
+.phone-verify .phone-input[data-v-73ae443c] {
+    display: block;
+    margin-bottom: .24rem;
+    line-height: 1.333333rem;
+    height: 1.466667rem;
+    background: #f5f5f5;
+    border-radius: .16rem;
+    font-size: .4rem;
+}
+
+.phone-verify .phone-input .phone-input-code[data-v-73ae443c],.phone-verify .phone-input .phone-input-num[data-v-73ae443c] {
+    margin-left: .533333rem;
+    font-size: .453333rem;
+    color: #999;
+    height: 1.066667rem;
+    border: none
+}
+
+.phone-verify .phone-input .phone-input-num[data-v-73ae443c] {
+    width: 60%;
+    background: #f5f5f5;
+}
+
+.phone-verify .phone-input .phone-input-code[data-v-73ae443c] {
+    width: 40%;
+    background: #f5f5f5
+}
+
+.phone-verify .get-code[data-v-73ae443c] {
+    float: right;
+    margin-right: .133333rem;
+    margin-top: .16rem;
+    color: #666;
+    text-align: center;
+    width: 30%;
+    font-size: .4rem
+}
+
+.phone-verify .get-code [data-v-73ae443c] {
+    color: #666
+}
+
+.phone-verify .phone-tip[data-v-73ae443c] {
+    margin: .533333rem 0 .746667rem;
+    font-size: .32rem;
+    color: #999
+}
+
+.phone-verify .phone-tip a[data-v-73ae443c] {
+    color: #ffc850
+}
+
+.verify-button[data-v-73ae443c] {
+    display: block;
+    margin: 0 auto;
+    height: 1.36rem;
+    background: #ffc850;
+    color: #fff;
+    font-size: .48rem;
+    line-height: 1.36rem;
+    text-align: center;
+    border-radius: .133333rem
+}
+
+[data-dpr="1"] .verify-button[data-v-73ae443c] {
+    border: .5px solid #ffc850
+}
+
+[data-dpr="2"] .verify-button[data-v-73ae443c] {
+    border: 1px solid #ffc850
+}
+
+[data-dpr="3"] .verify-button[data-v-73ae443c] {
+    border: 1.5px solid #ffc850
+}
