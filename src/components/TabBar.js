@@ -8,7 +8,7 @@ class TabBar extends Component {
   render() {
     return (
         <nav className="bar-tab">
-            <NavLink to="/" className="tab-item" activeClassName="selected">
+            <NavLink to="/plan" exact className="tab-item" activeClassName="selected">
                 <span className="bar-icon bar-ico-a bar-icon"></span>
                 <span className="tab-label">互助计划</span>
             </NavLink>

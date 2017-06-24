@@ -225,18 +225,20 @@
   height: 1.53141rem;
   margin-top: 0.31253rem;
   text-align: center;
+  position: fixed;
+  bottom: 6em;
 }
 
 [data-dpr="1"] .disclaimer {
-  border-bottom: .5px solid #dadada;
+  /*border-bottom: .5px solid #dadada;*/
 }
 
 [data-dpr="2"] .disclaimer {
-  border-bottom: 1px solid #dadada;
+  /*border-bottom: 1px solid #dadada;*/
 }
 
 [data-dpr="3"] .disclaimer {
-  border-bottom: 1.5px solid #dadada;
+  /*border-bottom: 1.5px solid #dadada;*/
 }
 
 .disclaimer p {
@@ -320,4 +322,28 @@
 
 .new-join-info .all-join-num em {
   color: #fbae36;
+}
+
+
+.Collapsible .Collapsible__contentOuter section em{
+  display: none;
+}
+
+.Collapsible.open .Collapsible__contentOuter section em{
+  display: block;
+}
+
+.Collapsible.open li i.arrow{
+  position: absolute;
+  right: 0.18752rem;
+  margin-top: 0.68757rem;
+  width: 0.32816rem;
+  height: 0.17189rem;
+  background-size: 100%;
+  -webkit-transform: rotate(1turn);
+  transform: rotate(1turn);
+}
+
+.Collapsible__trigger.is-open .li-border-bottom{
+  border-bottom: 0;
 }

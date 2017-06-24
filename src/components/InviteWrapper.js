@@ -6,7 +6,7 @@ class InviteWrapper extends Component {
 
   render() {
     return (
-        <div>
+        <div className="landing">
             敬请期待...
         </div>
       );

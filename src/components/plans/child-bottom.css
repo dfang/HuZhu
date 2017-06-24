@@ -92,7 +92,7 @@
 }
 
 .buy-area {
- position: fixed;
+ /*position: fixed;*/
  /*bottom: 0;*/
  bottom: 1.633333rem;
  width: 100%;

@@ -6,7 +6,7 @@ class NoticeWrapper extends Component {
 
   render() {
     return (
-        <div className="div-scroll-inner">
+        <div className="div-scroll-inner landing">
             暂无公示
         </div>
       );

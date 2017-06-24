@@ -6,12 +6,12 @@ import KnowUs from './KnowUs';
 import HelpRule from './HelpRule';
 import ServiceGuarantee from './ServiceGuarantee';
 import MediaReport from './MediaReport';
-import QA from './QA';
+import ChildPlanQA from './ChildPlanQA';
 import Contract from './Contract';
 import ChildBottom from './ChildBottom';
 
 
-import './child.css';
+import './ChildPlan.css';
 
 class ChildPlan extends Component {
 
@@ -21,19 +21,18 @@ class ChildPlan extends Component {
             <div className="wrapper" >
                 <ChildBanner />
                 <VipWrapper />
-                <div >
-                    <div >
+                <div>
+                    <div>
                         <div id="child-content">
                             <KnowUs />
                         </div>
                     </div>
                 </div>
             </div>
-
             <HelpRule />
             <ServiceGuarantee />
-            <MediaReport />
-            <QA />
+            {/* <MediaReport /> */}
+            <ChildPlanQA />
             <Contract />
             <ChildBottom />
         </div>

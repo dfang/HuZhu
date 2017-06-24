@@ -2,7 +2,6 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 const Convention = ({}) => {
-
     return (
         <section className="textWrap">
             <ul>

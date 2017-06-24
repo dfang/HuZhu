@@ -228,3 +228,24 @@
   height: 1.306667rem;
   border-radius: 0.18752rem
 }
+
+
+/* Collapsible */
+.Collapsible .Collapsible__contentOuter div.hidden-content em{
+  display: none;
+}
+
+.Collapsible.open .Collapsible__contentOuter div.hidden-content em{
+  display: block;
+}
+
+.Collapsible.open li i.question-arrow{
+  position: absolute;
+  right: 0.31253rem;
+  margin-top: 0.21877rem;
+  width: 0.32816rem;
+  height: 0.17189rem;
+  background-size: 100%;
+  -webkit-transform: rotate(1turn);
+  transform: rotate(1turn);
+}
