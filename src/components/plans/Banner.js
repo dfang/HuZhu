@@ -27,7 +27,7 @@ class Banner extends Component {
                 </a>
             </div>
 
-            <a href="#" className="newyear-banner"></a>
+            <a href="/intro" className="newyear-banner"></a>
         </div>
       );
     }

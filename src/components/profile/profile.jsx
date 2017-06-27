@@ -52,7 +52,7 @@ class Profile extends Component {
 
             </ul>
             <ul className="my-nav">
-                <NavItem to='/intro' text="了解宝健康" iconClassName="know-us-icon"/>
+                <NavItem to='/intro_us' text="了解宝健康" iconClassName="know-us-icon"/>
                 <NavItem to='/qa' text="常见问题" iconClassName="question-icon"/>
                 <li>
                     <a className="nav-item" href="javascript:void(0)">手机绑定<em className="tip">176****7383</em></a>

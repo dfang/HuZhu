@@ -19,6 +19,7 @@ import ProfileWrapper from './components/ProfileWrapper';
 import Login from './components/auth/login';
 import Join from './components/join/Join';
 import Ensure from './components/ensure/Ensure';
+import HelpRecord from './components/helprecord/HelpRecord';
 
 
 
@@ -26,6 +27,7 @@ import Root from './components/Root';
 
 
 import QA from './components/QA/QA';
+import IntroUS from './components/intro/IntroUS';
 import Intro from './components/intro/Intro';
 import Coupon from './components/coupon/Coupon';
 import RequestHelp from './components/requestHelp/RequestHelp';
@@ -55,12 +57,15 @@ const Main = () => (
       <Route path='/agreement/child-health-requirement' component={ChildHealthRequirement}/>
 
       <Route path='/QA' component={QA} />
+      <Route path='/intro_us' component={IntroUS} />
       <Route path='/intro' component={Intro} />
       <Route path='/coupon' component={Coupon} />
       <Route path='/requesthelp' component={RequestHelp} />
 
       <Route path='/invite' component={InviteWrapper}/>
       <Route path='/profile' component={ProfileWrapper}/>
+
+      <Route path='/help-record' component={HelpRecord}/>
 
 
   </Switch>
