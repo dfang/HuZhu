@@ -11,7 +11,7 @@ import Contract from './Contract';
 import ChildBottom from './ChildBottom';
 
 
-import './ChildPlan.css';
+import './child.css';
 
 class ChildPlan extends Component {
 
