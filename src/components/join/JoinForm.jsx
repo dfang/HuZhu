@@ -43,6 +43,7 @@ class JoinForm extends Component {
         console.log('state in componentDidUnMount is ')
         console.log(this.state)
     }
+
     closePopup() {
         this.setState({
             showRelationshipPopup: false,

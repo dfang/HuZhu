@@ -18,21 +18,15 @@ import InviteWrapper from './components/InviteWrapper';
 import ProfileWrapper from './components/ProfileWrapper';
 import Login from './components/auth/login';
 import Join from './components/join/Join';
+import EnsureDetail from './components/ensure/EnsureDetail';
 import Ensure from './components/ensure/Ensure';
 import HelpRecord from './components/helprecord/HelpRecord';
-
-
-
 import Root from './components/Root';
-
-
 import QA from './components/QA/QA';
 import IntroUS from './components/intro/IntroUS';
 import Intro from './components/intro/Intro';
 import Coupon from './components/coupon/Coupon';
 import RequestHelp from './components/requestHelp/RequestHelp';
-
-
 import { createStore, combineReducers, applyMiddleware } from 'redux'
 import { Provider } from 'react-redux'
 
@@ -44,30 +38,22 @@ const Main = () => (
       <Route path='/plan' exact component={PlanWrapper}/>
       <Route path='/notice' component={NoticeWrapper}/>
       <Route path='/join' component={Join} />
-      <Route path='/ensure' component={Ensure} />
+      <Route path='/ensure/:id' component={EnsureDetail} />
       <Route path='/login' component={Login}/>
-
-
       <Route path='/plan/child' component={ChildPlan}/>
       <Route path='/plan/health-inform' component={ChildHealthInform}/>
-
       <Route path='/agreement' exact component={Convention}/>
       <Route path='/agreement/convention' component={Convention}/>
       <Route path='/agreement/child-rule' component={ChildRule}/>
       <Route path='/agreement/child-health-requirement' component={ChildHealthRequirement}/>
-
       <Route path='/QA' component={QA} />
       <Route path='/intro_us' component={IntroUS} />
       <Route path='/intro' component={Intro} />
       <Route path='/coupon' component={Coupon} />
       <Route path='/requesthelp' component={RequestHelp} />
-
       <Route path='/invite' component={InviteWrapper}/>
       <Route path='/profile' component={ProfileWrapper}/>
-
       <Route path='/help-record' component={HelpRecord}/>
-
-
   </Switch>
 )
 
