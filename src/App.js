@@ -39,6 +39,7 @@ const Main = () => (
       <Route path='/notice' component={NoticeWrapper}/>
       <Route path='/join' component={Join} />
       <Route path='/ensure/:id' component={EnsureDetail} />
+      <Route path='/ensure' component={Ensure} />
       <Route path='/login' component={Login}/>
       <Route path='/plan/child' component={ChildPlan}/>
       <Route path='/plan/health-inform' component={ChildHealthInform}/>
