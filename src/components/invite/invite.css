@@ -222,8 +222,8 @@
   opacity: 0
 }
 .picker-title .cancel-button {
-  margin-left: 0!important
+  margin-left: 0;
 }
 .picker-title .title {
-  margin-left: -.666667rem!important
+  margin-left: -.666667rem;
 }

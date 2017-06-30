@@ -1,86 +1,150 @@
-import React, { Component } from 'react';
-
+import React, {Component} from 'react';
 import RechargePopUp from './RechargePopUp';
 import RelationshipPopup from './RelationshipPopup';
 import style from '../utils/style';
+import './popup.css';
 
-import {
-        Form,
-        FormError,
-        Text,
-        Select,
-        Textarea,
-        Checkbox,
-        RadioGroup,
-        Radio,
-        NestedForm
-        } from 'react-form';
 
 class JoinForm extends Component {
 
-  constructor(){
-    super();
-    this.state = { }
-  }
+    constructor(props) {
+        super(props);
+        this.showRelationshipPopup = this.showRelationshipPopup.bind(this);
+        this.handleSubmit = this.handleSubmit.bind(this);
+        // this.closePopup = this.closePopup.bind(this);
+        this.selectRelationshipItem = this.selectRelationshipItem.bind(this);
+        this.selectAmountItem = this.selectAmountItem.bind(this);
+        this.state = {
+            showRelationshipPopup: false,
+            showRechargePopup: false,
+            relationship: "",
+            amount_to_charge: ""
+        }
+    }
 
-  render() {
-    return (
-        <div className="order-list">
-            {/* <div className="number-title">
-                <div className="add-number">
-                    第 1 位
-                </div>
-            </div> */}
-            <div className="list-wrap">
-                <div className="form-area">
-                    <label>姓&nbsp;&nbsp;名</label>
-                    <input className="input-crl name-area" placeholder="为谁加入，请输入TA的姓名" type="text"/>
-                </div>
-                <div className="form-area" onClick={this.focus}>
-                    <label>关&nbsp;&nbsp;系</label>
-                    <input className="input-crl form-span" ref={(input) => { this.textInput = input; }} placeholder="TA是我的" readOnly="readonly"/>
-                    <div className="select-right">
-                        <span className="arrow-icon"></span>
+    showRelationshipPopup(e) {
+        console.log('show relationshipPopup')
+        e.preventDefault();
+        console.log(this.relationshipPopup)
+        this.setState({
+            showRelationshipPopup: true
+        })
+    }
+
+    showRechargePopup(e){
+        console.log('show RechargePopUp')
+        e.preventDefault();
+        this.setState({
+            showRechargePopup: true
+        })
+    }
+
+    componentDidUnMount() {
+        console.log('state in componentDidUnMount is ')
+        console.log(this.state)
+    }
+    closePopup() {
+        this.setState({
+            showRelationshipPopup: false,
+            showRechargePopup: false
+        })
+    }
+
+    selectRelationshipItem(e) {
+        console.log('selectRelationshipItem')
+        console.log(e)
+        this.setState({
+            relationship: e.target.innerText
+        });
+        console.log(this)
+        console.log(this.state)
+        this.closePopup();
+    }
+
+    selectAmountItem(e) {
+        console.log(e.target.innerText)
+        this.setState({
+            amount_to_charge: e.target.innerText
+        });
+        console.log(this);
+        console.log(this.state);
+        this.closePopup();
+    }
+
+    handleSubmit() {
+        console.log('submit');
+        console.log(this)
+        console.log(this.name)
+
+        let plan = {
+            name: this.name.value,
+            relationship: this.relationship.value,
+            identity_card: this.identity_card.value,
+            amount_to_charge: this.amount_to_charge.value
+        }
+
+        console.log(plan)
+    }
+
+    render() {
+        return (
+            <div className="order-list">
+                <div className="number-title">
+                    <div className="add-number">
+                        第 1 位
                     </div>
                 </div>
-                <div className="form-area">
-                    <label>身份证</label>
-                    <input className="input-crl" placeholder="输入身份证号（忘记可不填）" type="text"/>
-                </div>
-                <div className="form-area">
-                    <label>充&nbsp;&nbsp; 值</label>
-                    <input className="input-crl recharge__span from-span" placeholder="选择充值金额" readOnly="readonly"/>
-                    <div className="select-right">
-                        <span className="arrow-icon"></span>
+                <div className="list-wrap">
+                    <div className="form-area">
+                        <label>姓&nbsp;&nbsp;名</label>
+                        <input className="input-crl name-area" ref={(input) => {
+                            this.name = input;
+                        }} placeholder="为谁加入，请输入TA的姓名" type="text"/>
                     </div>
-                </div>
-                <div>
-                    <div className="shadow-wrap" style={style.displayNone}></div>
-                    <div className="mint-popup mint-popup-bottom" style={style.displayNone}>
-                        <div className="picker-title">
-                            <div className="cancel-button">
-                                <a href="javascript:;">取消</a>
-                            </div>
-                            <div className="title">
-                                从已有会员中选择
-                            </div>
-                            <div className="submit-button"></div>
+                    <div className="form-area" onClick={e => this.showRelationshipPopup(e)}>
+                        <label>关&nbsp;&nbsp;系</label>
+                        <input className="input-crl form-span" ref={(input) => {
+                            this.relationship = input;
+                        }} value={this.state.relationship} placeholder="TA是我的" readOnly="readonly"/>
+                        <div className="select-right">
+                            <span className="arrow-icon"></span>
                         </div>
-                        <div>
-                            <div>
-                                <span className="not-userlist">当前账户中没有可选的被保障人，返回填写吧</span>
-                            </div>
+                    </div>
+                    <div className="form-area">
+                        <label>身份证</label>
+                        <input className="input-crl" ref={(input) => {
+                            this.identity_card = input;
+                        }} placeholder="输入身份证号（忘记可不填）" type="text"/>
+                    </div>
+                    <div className="form-area" onClick={e => this.showRechargePopup(e)}>
+                        <label>充&nbsp;&nbsp; 值</label>
+                        <input className="input-crl recharge__span from-span" ref={(input) => {
+                            this.amount_to_charge = input;
+                        }} value={this.state.amount_to_charge} placeholder="选择充值金额" readOnly="readonly"/>
+                        <div className="select-right">
+                            <span className="arrow-icon"></span>
                         </div>
                     </div>
+
+
+                    <RelationshipPopup show={this.state.showRelationshipPopup} chooseRelationship={this.selectRelationshipItem} />
+
+                    <RechargePopUp show={this.state.showRechargePopup} chooseAmount={this.selectAmountItem} />
                 </div>
-                <RelationshipPopup />
-                <RechargePopUp />
+                <div className="footer-wrap">
+                    <div className="button-area">
+                        <button className="go-btn" name="xxx" onClick={this.handleSubmit}>确认加入互助</button>
+                    </div>
+                    <div className="rule-wrap">
+                        我同意
+                        <a href="/agreement/child-health-requirement">《健康要求》</a>
+                        <a href="/agreement/convention">《会员公约》</a>
+                        及
+                        <a href="/agreement/child-rule">《计划条款》</a>
+                    </div>
+                </div>
             </div>
-            {/* <div className="add-btn">
-                <i className="add-icon"></i> <span className="add-info">为更多家人加入计划</span>
-            </div> */}
-        </div>
-      );
+        )
     }
 }
 
