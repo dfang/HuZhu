@@ -1,0 +1,66 @@
+.root {
+  background: #f9f9f9;
+  padding-bottom: 1.333333rem;
+  line-height: 1.6
+}
+
+.work-ask-wrap {
+  height: 100%;
+  padding: 0.15627rem;
+  line-height: 1.6;
+  font-size: 0.40629rem
+}
+.work-ask-wrap h1 {
+  height: 1.4064rem;
+  line-height: 1.4064rem;
+  font-size: 0.43755rem;
+  color: #333;
+  text-align: left;
+  padding-left: 0.43755rem
+}
+[data-dpr="1"] .work-ask-wrap h1 {
+  border-bottom: .5px solid #d7d7d7
+}
+[data-dpr="2"] .work-ask-wrap h1 {
+  border-bottom: 1px solid #d7d7d7
+}
+[data-dpr="3"] .work-ask-wrap h1 {
+  border-bottom: 1.5px solid #d7d7d7
+}
+.work-ask-wrap h2 {
+  padding: 0.4688rem 0 0;
+  margin-left: 0.43755rem;
+  font-size: 0.43755rem;
+  color: #333;
+  padding-bottom: 0.4688rem;
+  border-bottom: 0.03125rem dashed #dadada;
+  overflow: hidden
+}
+.work-ask-wrap .last-title {
+  padding-bottom: 0
+}
+.work-ask-wrap .ask-msg {
+  width: 92%;
+  margin-left: 0.37504rem;
+  border-bottom: 0.03125rem dashed #dadada;
+  margin-top: -0.15627rem;
+  padding-bottom: 0.4688rem
+}
+.work-ask-wrap .last-info {
+  width: 84%;
+  margin-left: 1.25013rem
+}
+.work-ask-wrap p {
+  margin-left: 0.78133rem;
+  color: #666;
+  width: 94%
+}
+.work-ask-wrap .no-border {
+  border-bottom: 0!important
+}
+.work-ask-wrap em {
+  float: left
+}
+.work-ask-wrap b {
+  color: #000
+}
