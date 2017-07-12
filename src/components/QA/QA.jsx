@@ -10,7 +10,7 @@ const QA = () => (
     		互助介绍
     	</div>
     	<div className="quesCtn">
-            <Collapsible trigger={<div className="a_wrap"> <a className="qusOne"> <p>什么是宝健康互助？</p><i className="downImg downImg"></i></a> </div>}>
+            <Collapsible trigger="什么是宝健康互助？">
                 <div className="hiddenCtn">
                     <p className="tabFonts"><em className="tabFonts"></em>宝健康互助是一个真实可靠的互助社群，在这里，一人患病，众人均摊，大家互帮互助。</p>
                     <p className="tabFonts">目前宝健康互助已获腾讯、美团—大众点评等联 合投资，王兴、徐小平等30位互联网大佬力挺。</p>

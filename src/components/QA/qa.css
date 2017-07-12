@@ -1,3 +1,27 @@
+span.Collapsible__trigger{
+    width: 100%;
+    display: block;
+    padding-left: 5%;
+    /*width: 95%;*/
+    height: 1.333333rem;
+    line-height: 1.333333rem;
+    font-size: .426667rem;
+    background: #fff;
+    color: #333;
+}
+span.Collapsible__trigger:after{
+    content: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAgAAAAIABAMAAAAGVsnJAAAAMFBMV…oDAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAANAPOEw5KwVifV4AAAAASUVORK5CYII=) 0 0 no-repeat;
+}
+
+span.Collapsible__trigger.is-open{
+    border-bottom: 0;
+}
+
+span.Collapsible__trigger.is-closed{
+    border-bottom: .5px solid #e0e0e0;
+}
+
+
 .qusWrap {
 	line-height: 1.6;
 	background: #f6f6f6
