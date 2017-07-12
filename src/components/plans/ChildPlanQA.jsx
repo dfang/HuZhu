@@ -14,7 +14,7 @@ const ChildPlanQA = () => (
                       <div>
                         <div className="hidden-content">
                             <em></em>
-                            <p>可拨打客服电话400-686-1266申请互助金。处理流程如下：</p>
+                            <p>可拨打客服电话400-0719-136申请互助金。处理流程如下：</p>
                             <p className="qus-two">（1）客服了解并登记你的申请；<br/>
                             （2）宝健康互助委托第三方专业公估机构（如商保通等）核实事件真实性；<br/>
                             （3）宝健康互助对事件进行全平台公示；<br/>
@@ -35,11 +35,11 @@ const ChildPlanQA = () => (
                       </div>
                   </Collapsible>
 
-                  <Collapsible openedClassName="open" trigger={<li className="question-pose">Q3 快到17岁了加入后还能延续多久？<i className="question-arrow question-arrow"></i></li>}>
+                  <Collapsible openedClassName="open" trigger={<li className="question-pose">Q3 快到12岁了加入后还能延续多久？<i className="question-arrow question-arrow"></i></li>}>
                       <div className="hidden-content">
                           <em></em>
-                          <p>本计划加入年龄为出生后30天-17周岁，包含17周岁。如果孩子今年17周岁，可以放心加入。</p>
-                          <p>孩子年满18周岁时，会自动转入中青年抗癌计划，继续享有互助资格。</p>
+                          <p>本计划加入年龄为出生后30天-12周岁，包含12周岁。如果孩子今年12周岁，可以放心加入。只对12岁以下儿童。</p>
+                          <p>年满12周岁后将自动全额退还。或者申请捐献我们指定公益机构。</p>
                       </div>
                   </Collapsible>
 

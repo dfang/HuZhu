@@ -19,7 +19,7 @@ class ServiceGuarantee extends Component {
                     <em className="service-safe"></em>
                     <p className="content-left-title">资金安全</p>
                     <p></p>
-                    <p className="content-left-info">资金存管，专款专用</p>
+                    <p className="content-left-info">资金存管第三方公益基金，专款专用指定救助打款</p>
                 </span>
             </div>
             <div className="service-guarantee-content">
