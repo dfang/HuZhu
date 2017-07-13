@@ -58,7 +58,7 @@ class Profile extends Component {
                     <a className="nav-item" href="javascript:void(0)">手机绑定<em className="tip">176****7383</em></a>
                 </li>
                 <li>
-                    <NavLink className="nav-item no-border" to="tel:400-686-1266">联系客服<span className="tel-number">400 686 1266</span></NavLink>
+                    <NavLink className="nav-item no-border" to="tel:400-0719-136">联系客服<span className="tel-number">400 686 1266</span></NavLink>
                 </li>
             </ul>
             <div className="service-info">

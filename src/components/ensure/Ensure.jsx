@@ -42,7 +42,7 @@ const Ensure = ({match}) => (
                         <div className="title">
                             <h1>提示</h1><a className="close-dialog" href="javascript:;"></a>
                         </div>
-                        <p className="tip-alert">您可能使用了其他手机号注册，请联系客服查询信息 <a className="tel-color" href="tel:400-686-1266">400-686-1266</a></p><button className="confirm-button">好的</button>
+                        <p className="tip-alert">您可能使用了其他手机号注册，请联系客服查询信息 <a className="tel-color" href="tel:400-0719-136">400-0719-136</a></p><button className="confirm-button">好的</button>
                     </div>
                 </div>
             </div>

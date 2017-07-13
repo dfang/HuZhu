@@ -19,7 +19,7 @@ const ChildPlanQA = () => (
                             （2）宝健康互助委托第三方专业公估机构（如商保通等）核实事件真实性；<br/>
                             （3）宝健康互助对事件进行全平台公示；<br/>
                             （4）若公示无异议，宝健康互助将互助金划拨至申请人的个人账户。</p>
-                            <p className="qus-two">申请互助金的依据，以公众号或APP“我的宝健康-我的互助计划凭证”中已加入的计划为准。</p>
+                            <p className="qus-two">申请互助金的依据，以公众号“我的宝健康-我的互助计划凭证”中已加入的计划为准。</p>
                         </div>
                       </div>
                   </Collapsible>
@@ -53,7 +53,7 @@ const ChildPlanQA = () => (
             </div>
             <div className="qus-tel">
               <div className="que-tel-line">
-                <a className="tel-question" href="tel:400-686-1266"><em className="tel-one"></em><span>电话咨询</span></a>
+                <a className="tel-question" href="tel:400-0719-136"><em className="tel-one"></em><span>电话咨询</span></a>
               </div>
             </div>
         <WxDialog />

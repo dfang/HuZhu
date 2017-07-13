@@ -24,7 +24,7 @@ class PlanListWrapper extends Component {
                             <h1>少儿健康互助计划</h1>
                             <span className="content-font-desc"></span>
                             <p> 白血病、癌症等50种大病</p>
-                            <p> 出生后30天-17周岁</p>
+                            <p> 出生后30天-12周岁</p>
                         </span>
                         <button><span> 加入</span></button>
                     </div>

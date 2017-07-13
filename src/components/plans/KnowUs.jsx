@@ -9,7 +9,7 @@ class KnowUs extends Component {
             <h1>了解互助</h1>
             <div className="know-us-font">
                 <p>你知道吗？</p>
-                <p>儿童大病治疗费用平均10-30万元</p>
+                <p>儿童大病治疗费用平均10-30万元，甚至更多。</p>
             </div>
             <div className="know-us-icon">
                 <span><i className="know-us-one"></i> <p>医保报销少</p></span>

@@ -79,7 +79,7 @@ class RechargePopUp extends Component {
                             </div>
                             <div className="item" onClick={e => this.selectAmountItem(e)}>
                                 <div>
-                                    150元
+                                    99元
                                 </div>
                             </div>
                             <div className="item" onClick={e => this.selectAmountItem(e)}>

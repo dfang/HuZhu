@@ -25,7 +25,7 @@ const IntroUS = ({}) => (
             <a className="info-plan" href="/sd/list/child?channel=wx_h5_menu">
                 <h2>少儿健康互助计划<span className="info-sign">给儿女</span></h2>
                 <p>覆盖白血病、癌症等50种大病</p>
-                <p>出生后30天－17周岁</p>
+                <p>出生后30天－12周岁</p>
             </a>
         </div>
 

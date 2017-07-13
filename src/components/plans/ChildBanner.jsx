@@ -9,7 +9,7 @@ const ChildBanner = () => (
             <div className="banner-info" >
                 <h2>少儿健康互助计划</h2>
                 <p>最高获捐30万元</p>
-                <p>出生后30天-17周岁</p>
+                <p>出生后30天-12周岁</p>
             </div>
         </div>
     )

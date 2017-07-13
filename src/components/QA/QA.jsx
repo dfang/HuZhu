@@ -13,7 +13,6 @@ const QA = () => (
             <Collapsible trigger="什么是宝健康互助？">
                 <div className="hiddenCtn">
                     <p className="tabFonts"><em className="tabFonts"></em>宝健康互助是一个真实可靠的互助社群，在这里，一人患病，众人均摊，大家互帮互助。</p>
-                    <p className="tabFonts">目前宝健康互助已获腾讯、美团—大众点评等联 合投资，王兴、徐小平等30位互联网大佬力挺。</p>
                 </div>
             </Collapsible>
 
@@ -29,12 +28,12 @@ const QA = () => (
     	<div className="quesCtn">
     		 <Collapsible trigger="若遇不幸怎么申请互助？">
                 <div className="hiddenCtn">
-                    <p>可拨打客服电话400-686-1266申请互助金。处理流程如下：</p>
+                    <p>可拨打客服电话400-0719-136申请互助金。处理流程如下：</p>
                     <p>（1）客服了解并登记你的申请；</p>
                     <p>（2）宝健康互助委托第三方专业公估机构（如商保通等）核实事件真实性；</p>
                     <p>（3）宝健康互助对事件进行全平台公示；</p>
                     <p>（4）若公示无异议，宝健康互助将互助金划拨至申请人的个人账户。</p>
-                    <p>申请互助金的依据，以公众号或APP“我的宝健康-我的互助计划凭证”中已加入的计划为准。</p>
+                    <p>申请互助金的依据，以公众号“我的宝健康-我的互助计划凭证”中已加入的计划为准。</p>
                 </div>
           </Collapsible>
 
@@ -75,10 +74,9 @@ const QA = () => (
     		加入规则
     	</div>
     	<div className="quesCtn lastQusCtn">
-      		<Collapsible trigger="50岁加入哪个计划？加入后延续多久？">
+      		<Collapsible trigger="那些儿童可以加入宝健康儿童健康互助？">
               <div className="hiddenCtn">
-                  <p className="tabFonts">请加入中青年抗癌计划。中青年抗癌计划的加入年龄为18-50周岁，包含18周岁和50周岁。</p>
-                  <p className="tabFonts">加入后，年满51周岁时，会自动转入中老年抗癌计划，继续享有互助资格。</p>
+                  <p className="tabFonts">出生后30天-12周岁，身体健康的儿童。</p>
               </div>
           </Collapsible>
 
@@ -95,7 +93,7 @@ const QA = () => (
 
       		<Collapsible trigger="加入互助计划后还可以退出吗？">
               <div className="hiddenCtn">
-                  <p className="tabFonts">可以。您可以拨打客服电话400-686-1266申请，您的账户余额也会一并退还。但是退出后如果再次加入，将重新计算等待期。</p>
+                  <p className="tabFonts">可以。您可以拨打客服电话400-0719-136申请，您的账户余额也会一并退还。但是退出后如果再次加入，将重新计算等待期。</p>
               </div>
           </Collapsible>
         </div>
