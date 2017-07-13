@@ -6,7 +6,6 @@ const Intro = ({}) => (
     	<div className="article-wrap">
     		<div className="article-title">
     			<h1>1分钟看明白：互助是什么？为啥要充值？</h1>
-    			<p><em>2017-05-18</em>&nbsp;&nbsp;<em>心和会员在一起的宝健康</em></p>
     		</div>
     		<div className="content-wrap">
     		<p>欢迎来到宝健康互助。初次见面，请多关照哦~<br/>
@@ -16,21 +15,22 @@ const Intro = ({}) => (
     		<p>互助就是：<em className="tips">一人生病、众人均摊。</em>会员每人预存一点钱，放在一起，以后谁生病了就从这些钱里面出医疗费。<br/>
     		这样就可以“每个人平时花很少的钱帮别人，自己生病也能得到救命钱”。</p>
     		<h2>2.宝健康互助都有什么互助计划？</h2>
-    		<p>宝健康互助有4个互助计划，总有适合你的~</p>
+    		<p>宝健康互助有1个互助计划，总有适合你的~</p>
     		<table>
-                <tbody>
-    			<tr>
-    				<th>互助计划</th>
-    				<th>面向人群</th>
-    				<th>保障范围</th>
-    			</tr>
-    			<tr>
-    				<td>少儿健康</td>
-    				<td>出生后30天-17周岁，身体健康</td>
-    				<td>白血病等50种大病的风险</td>
-    			</tr>
-
-                </tbody>
+          <thead>
+            <tr>
+      				<th>互助计划</th>
+      				<th>面向人群</th>
+      				<th>保障范围</th>
+      			</tr>
+          </thead>
+          <tbody>
+      			<tr>
+      				<td>少儿健康</td>
+      				<td>出生后30天-17周岁，身体健康</td>
+      				<td>白血病等50种大病的风险</td>
+      			</tr>
+          </tbody>
     		</table>
     		<h2>3.为什么要充值？</h2>
     		<p><em className="tips">因为每帮助一个有困难的会员，你的账户就会发生一次扣款。</em></p>
@@ -44,22 +44,13 @@ const Intro = ({}) => (
     				<th>互助计划</th>
     				<th>预估花费</th>
     			</tr>
-    			<tr>
-    				<td>中青年抗癌</td>
-    				<td>每年约150元</td>
-    			</tr>
-    			<tr>
-    				<td>中老年抗癌</td>
-    				<td>每年约350元</td>
-    			</tr>
+
+
     			<tr>
     				<td>少儿健康</td>
     				<td>每年约150元</td>
     			</tr>
-    			<tr>
-    				<td>综合意外</td>
-    				<td>每年约50元</td>
-    			</tr>
+
                 </tbody>
     		</table>
     		<p>充都充了，不如一次充个省心，<em className="tips">建议您可以充够30元，这样就不用频繁充值啦~</em></p>
