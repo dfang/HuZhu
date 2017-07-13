@@ -10,7 +10,7 @@ const ChildPlanQA = () => (
             <div className="plan-question">
               <h1>常见问题</h1>
               <ul>
-                  <Collapsible openedClassName="open" trigger={<li className="question-pose">Q1 <i>若遇不幸怎么申请互助？</i><i className="question-arrow question-arrow"></i></li>}>
+                  <Collapsible openedClassName="open" trigger="Q1 若遇不幸怎么申请互助？">
                       <div>
                         <div className="hidden-content">
                             <em></em>
@@ -24,7 +24,7 @@ const ChildPlanQA = () => (
                       </div>
                   </Collapsible>
 
-                  <Collapsible openedClassName="open" trigger={<li className="question-pose">Q2 <i>小孩还没有身份证，怎么加入？</i><i className="question-arrow question-arrow"></i></li>}>
+                  <Collapsible openedClassName="open" trigger="Q2 小孩还没有身份证，怎么加入？">
                       <div>
                           <div className="hidden-content">
                               <em></em>
@@ -35,7 +35,7 @@ const ChildPlanQA = () => (
                       </div>
                   </Collapsible>
 
-                  <Collapsible openedClassName="open" trigger={<li className="question-pose">Q3 快到12岁了加入后还能延续多久？<i className="question-arrow question-arrow"></i></li>}>
+                  <Collapsible openedClassName="open" trigger="Q3 快到12岁了加入后还能延续多久">
                       <div className="hidden-content">
                           <em></em>
                           <p>本计划加入年龄为出生后30天-12周岁，包含12周岁。如果孩子今年12周岁，可以放心加入。只对12岁以下儿童。</p>
@@ -43,7 +43,7 @@ const ChildPlanQA = () => (
                       </div>
                   </Collapsible>
 
-                  <Collapsible openedClassName="open" trigger={<li className="question-pose">Q4 宝健康互助是保险吗？<i className="question-arrow question-arrow"></i></li>}>
+                  <Collapsible openedClassName="open" trigger="Q4 宝健康互助是保险吗？">
                       <div className="hidden-content">
                           <em></em>
                           <p>宝健康互助不是保险，而是会员之间互帮互助的公益行动。加入互助社群后，当互助事件发生时，其他会员向符合互助条件的会员进行单向赠予。会员预存金额不是保险费，不能预期获得确定的风险保障回报。</p>

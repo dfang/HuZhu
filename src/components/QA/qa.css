@@ -1,7 +1,7 @@
 span.Collapsible__trigger{
-    width: 100%;
+    width: auto;
     display: block;
-    padding-left: 5%;
+    padding-left: 1%;
     /*width: 95%;*/
     height: 1.333333rem;
     line-height: 1.333333rem;
