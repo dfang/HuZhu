@@ -16,6 +16,12 @@
 .plan-question i {
   font-style: normal
 }
+.plan-question .arrow-new{
+  position: absolute;
+margin-top: -70px;
+right: 40px;
+
+}
 .plan-question {
   background: #fff;
   padding-top: 0.31253rem;
@@ -175,9 +181,9 @@
   line-height: 1.34389rem;
   font-size: 0.43755rem
 }
-[data-dpr="1"] .qus-tel div {
+/*[data-dpr="1"] .qus-tel div {
   border-top: .5px solid #d1d1d1
-}
+}*/
 [data-dpr="2"] .qus-tel div {
   border-top: 1px solid #d1d1d1
 }

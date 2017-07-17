@@ -1,9 +1,7 @@
 import React from 'react';
 import Collapsible from 'react-collapsible';
 import WxDialog from './WxDialog';
-
 import './ChildPlanQA.css'
-
 const ChildPlanQA = () => (
     (
         <div>
@@ -11,6 +9,7 @@ const ChildPlanQA = () => (
               <h1>常见问题</h1>
               <ul>
                   <Collapsible openedClassName="open" trigger="Q1 若遇不幸怎么申请互助？">
+<<<<<<< HEAD
                       <div>
                         <div className="hidden-content">
                             <em></em>
@@ -21,6 +20,16 @@ const ChildPlanQA = () => (
                             （4）若公示无异议，宝健康互助将互助金划拨至申请人的个人账户。</p>
                             <p className="qus-two">申请互助金的依据，以公众号“我的宝健康-我的互助计划凭证”中已加入的计划为准。</p>
                         </div>
+=======
+                      <div className="hidden-content">
+                          <em></em>
+                          <p>可拨打客服电话400-0719-136申请互助金。处理流程如下：</p>
+                          <p className="qus-two">（1）客服了解并登记你的申请；<br/>
+                          （2）宝健康互助委托第三方专业公估机构（如商保通等）核实事件真实性；<br/>
+                          （3）宝健康互助对事件进行全平台公示；<br/>
+                          （4）若公示无异议，宝健康互助将互助金划拨至申请人的个人账户。</p>
+                          <p className="qus-two">申请互助金的依据，以公众号或APP“我的宝健康-我的互助计划凭证”中已加入的计划为准。</p>
+>>>>>>> xiugaijiantou
                       </div>
                   </Collapsible>
 

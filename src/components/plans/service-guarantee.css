@@ -1,9 +1,9 @@
 .service-guarantee {
-  overflow: hidden;
+  /*overflow: hidden;*/
   background: #fff
 }
 .service-guarantee h1 {
-  margin: 0 0 0.31253rem 0.4688rem;
+  margin: 0 0 1.31253rem 0.4688rem;
   font-size: 0.50005rem;
   color: #333;
   font-weight: 700

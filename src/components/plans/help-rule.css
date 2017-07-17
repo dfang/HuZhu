@@ -29,13 +29,13 @@
  font-size: 0.43755rem;
  color: #282727
 }
-
+/*
 .help-rule ul li {
  position: relative;
  width: 95%;
  height: 1.56267rem;
  line-height: 1.56267rem
-}
+}*/
 
 .help-rule ul li span {
  margin-left: 0.31253rem;
@@ -226,4 +226,16 @@
 
 .people-table td {
  padding-left: 0.15627rem
+}
+
+span.Collapsible__trigger.is-closed:after {
+  content: "﹀";
+  float: right;
+  padding-right: 30px;
+}
+
+span.Collapsible__trigger.is-open:after {
+  content: "︿";
+  float: right;
+  padding-right: 30px;
 }
