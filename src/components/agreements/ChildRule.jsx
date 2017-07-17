@@ -6,7 +6,7 @@ import './ChildRule.css'
 const ChildRule = () => (
     <section className="ruleIp-content-wrap">
         <div className="textWrap" id="childIp">
-            <h1>少儿健康计划条款</h1>
+            <h1><b>少儿健康计划条款</b></h1>
             <ul>
                 <Collapsible trigger="第一条 计划的宗旨">
                     <li className="ipList">

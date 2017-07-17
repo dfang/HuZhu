@@ -1,6 +1,6 @@
 span.Collapsible__trigger{
     /*margin-left: .533333rem;*/
-    font-size: .506667rem;
+    /*font-size: .506667rem;*/
     display: block;
     width: 100%;
 }
@@ -20,7 +20,7 @@ body {
 }
 .textWrap h1 {
 	margin-left: 0.62507rem;
-	margin-top: 0.4688rem;
+	/*margin-top: 0.4688rem;*/
 	color: #333;
 	font-size: 0.75008rem;
 	text-align: center

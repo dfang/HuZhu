@@ -8,7 +8,7 @@ class KnowUs extends Component {
         <div className="know-us">
             <h1>了解互助</h1>
             <div className="know-us-font">
-                <p>你知道吗？</p>
+                <p><b>你知道吗？</b></p>
                 <p>儿童大病治疗费用平均10-30万元，甚至更多。</p>
             </div>
             <div className="know-us-icon">
@@ -17,7 +17,7 @@ class KnowUs extends Component {
                 <span><i className="know-us-three"></i> <p>家庭收入大减</p></span>
             </div>
             <div className="know-us-info">
-                <p>预捐9元加入互助，帮助他人，保护自己</p>
+                <p><b>预捐9元加入互助，帮助他人，保护自己</b></p>
                 <p className="know-us-info__span">有人需要帮助时，大家协力相助，每人分摊不超过3元</p>
             </div>
             <div className="know-us-img">

@@ -206,7 +206,7 @@
 
 .plan-list-wrap .plan-list .plan-list-content .plan-content-top button {
   position: absolute;
-  bottom: 0.06251rem;
+  bottom: 1.06251rem;
   right: 0.34379rem;
   font-size: .373333rem;
   text-align: center;
@@ -222,11 +222,12 @@
 
 .disclaimer {
   width: 100%;
-  height: 1.53141rem;
+  height: 1.33141rem;
   margin-top: 0.31253rem;
   text-align: center;
   position: fixed;
   bottom: 6em;
+  background-color: #EEEFF3
 }
 
 [data-dpr="1"] .disclaimer {
